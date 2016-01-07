@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<routing-config version="1.0">
+	<route-type name="other-roads" speed="30"> 
+		<required-tag key="highway" value="*" />
+	</route-type>
+</routing-config>

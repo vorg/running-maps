@@ -1,0 +1,6 @@
+{ lat: 55.6665346478993, lon: 12.4913839288425 }
+{ lat: 55.69764155889709, lon: 12.557383608878 }
+
+~/Dev/osm/osmosis/bin/osmosis --read-api left=" 12.4913839288425" bottom="55.6665346478993" right="12.557383608878" top="55.69764155889709" --write-xml file="frederiksberg.osm"
+
+~/Dev/osm/osmosis/bin/osmosis --read-xml file="frederiksbergarea.osm" --bounding-polygon file="frederiksberg.poly" --write-xml file="frederiksberg.osm"

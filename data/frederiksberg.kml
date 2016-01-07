@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- *** KML lavet fra DAGI-datasæt lagt på GeoCommons http://finder.geocommons.com/overlays/13236 *** -->
+<!-- *** Lavet af Søren Johannessen http://www.microformats.dk/ *** -->
+<!-- *** Udgivet under en  CC licens (Attribution-Share Alike 3.0 Unported) http://creativecommons.org/licenses/by-sa/3.0/ *** -->
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+
+<Document>
+	<name>Frederiksberg Kommune</name>
+	<StyleMap id="default">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#default_normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#default_highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	
+          <Style id="default_normal">
+		<IconStyle>
+             <scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>1.1</scale>
+                 <color>ff00ffff</color>
+		</LabelStyle>
+		<BalloonStyle>
+                <text><![CDATA[<h1>$[name]</h1> $[description]]]></text>	
+			
+			<bgColor>ffffffff</bgColor>
+		</BalloonStyle>
+		<LineStyle>
+			<color>eeff6600</color>
+			<width>6</width>
+		</LineStyle>
+		<PolyStyle>
+<outline>1</outline>
+                 <fill>1</fill> 
+			<color>998b0000</color>
+		</PolyStyle>
+	</Style>
+	
+
+        <Style id="default_highlight">
+		<IconStyle>
+                <scale>1.7</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>1.7</scale>
+                 <color>ff00ffff</color>
+		</LabelStyle>
+		<BalloonStyle>
+              <text><![CDATA[<h1>$[name]</h1> $[description]]]></text>	
+			
+			<bgColor>ffffffff</bgColor>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ddffffff</color>
+			<width>6</width>
+		</LineStyle>
+		<PolyStyle>
+<outline>1</outline>
+                 <fill>1</fill> 
+			<color>998b0000</color>
+		</PolyStyle>
+	</Style>
+	
+
+<Placemark id="frederiksberg">
+	<name>Frederiksberg Kommune</name>
+		<styleUrl>#default</styleUrl>
+		<description><![CDATA[]]></description>
+		<MultiGeometry>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+12.5306337824861,55.6967109747452,0 12.5323011094873,55.6966629683634,0 12.5320859050041,55.69710076398999,0 12.5357620052541,55.6974354372159,0 12.5382802308518,55.69764155889709,0 12.534635828956,55.69466250593,0 12.5365810496391,55.6908209476608,0 12.5371955201753,55.6903986026216,0 12.5411023475107,55.68766029394731,0 12.5470164846528,55.68512456709559,0 12.55304748353,55.68476115087429,0 12.5551932821236,55.68385373883961,0 12.5533865007361,55.6816581778949,0 12.5542774089484,55.6814794990411,0 12.557383608878,55.6816861536344,0 12.5553416634777,55.6735718940482,0 12.5540900006006,55.6734553225011,0 12.5499768628856,55.6744197000127,0 12.5498996834944,55.67286636847071,0 12.5495216816315,55.6727334446429,0 12.547530652077,55.6730608189144,0 12.5451801203452,55.6722296349929,0 12.5395505259938,55.6703241950545,0 12.5353456841851,55.6706253453568,0 12.5343434039848,55.6692155759249,0 12.5343090930214,55.6686590820533,0 12.5303768862545,55.6677473237911,0 12.5234588402744,55.6665346478993,0 12.5141646599439,55.6687975316853,0 12.5110203579283,55.66957097310869,0 12.5037852656228,55.669256432738,0 12.4965701441037,55.66898585481909,0 12.4962759093102,55.6701451608,0 12.4955700377941,55.6725750146892,0 12.4934426336781,55.67262665369779,0 12.4913839288425,55.6791591731974,0 12.4939130954178,55.6830703750377,0 12.4983354165103,55.6853630182565,0 12.4980331399121,55.68554247947541,0 12.4989226377325,55.6860565958382,0 12.5062895323854,55.6886965115103,0 12.5164241901892,55.6907711286233,0 12.5232341795837,55.69445106357521,0 12.5278426133154,55.6955954038753,0 12.5304058942979,55.695773414173,0 12.5306337824861,55.6967109747452,0 </coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+			<Point>
+				<coordinates>12.5243837688603,55.6820881033982,0</coordinates>
+			</Point>
+		</MultiGeometry>
+	</Placemark>
+
+
+		
+</Document>
+</kml>
